@@ -12,4 +12,4 @@
 2) Next we concatenate the URL and the pincode together and assign it to a variable.
 3) Then we initialize the curl, set the curl option with the URL variable, execute the curl and close the curl.
 4) From the above action we will recieve the output from the curl in json format, hence we convert it to an array using **json_decode** function.
-5) After that we get the post office name, post office, district, division, taluk, state and pincode.
+5) After that we get the post office name, post office, district, division, taluk, state and pincode of a particular area.
